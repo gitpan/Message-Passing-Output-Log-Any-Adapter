@@ -25,9 +25,13 @@ my %WriteMakefileArgs = (
   "NAME" => "Message::Passing::Output::Log::Any::Adapter",
   "PREREQ_PM" => {
     "Log::Any" => "0.14",
-    "Log::Any::Adapter" => "0.09"
+    "Log::Any::Adapter" => "0.09",
+    "Message::Passing" => "0.104",
+    "Moo" => "1.000003",
+    "MooX::Types::MooseLike::Base" => "0.10",
+    "namespace::clean" => "0.23"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Message-Passing-Output-Log-Any-Adapter,
-version 0.001:
+version 0.002:
 
   output messages via Log::Any::Adapter.
 

@@ -18,9 +18,13 @@ name: Message-Passing-Output-Log-Any-Adapter
 requires:
   Log::Any: 0.14
   Log::Any::Adapter: 0.09
+  Message::Passing: 0.104
+  Moo: 1.000003
+  MooX::Types::MooseLike::Base: 0.10
+  namespace::clean: 0.23
 resources:
   repository: git://github.com/abraxxa/Message-Passing-Output-Log-Any-Adapter.git
-version: 0.001
+version: 0.002
 x_Dist_Zilla:
   plugins:
     -

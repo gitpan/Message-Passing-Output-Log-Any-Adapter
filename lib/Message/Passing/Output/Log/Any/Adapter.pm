@@ -1,6 +1,6 @@
 package Message::Passing::Output::Log::Any::Adapter;
 {
-  $Message::Passing::Output::Log::Any::Adapter::VERSION = '0.001';
+  $Message::Passing::Output::Log::Any::Adapter::VERSION = '0.002';
 }
 
 # ABSTRACT: output messages via Log::Any::Adapter.
@@ -54,7 +54,7 @@ Message::Passing::Output::Log::Any::Adapter - output messages via Log::Any::Adap
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
